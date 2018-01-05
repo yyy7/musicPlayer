@@ -1,0 +1,73 @@
+body{
+	padding: 0;
+	margin: 0;
+	padding-bottom: 50px;
+	
+}
+#header{
+	position: relative;
+	width: 100%;
+	height: 180px;
+	background-image: url(../img/header.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%,100%;
+	overflow: hidden;
+}
+#header_span1{
+	position: absolute;
+	top: 5%;
+	left: 40%;
+	color: whitesmoke;
+    font-size: 20px;
+}
+#header_span2{
+	position: absolute;
+	top: 80%;
+	left: 6%;
+	color: whitesmoke;
+    font-size: 12px;
+}
+#main{
+	width: 100%;
+	height: 100%;
+	margin-top: 0;
+	margin-bottom: 0;
+	background-image: url(../img/img3.jpg);
+	background-repeat:repeat-y;
+	background-size: 100%,100%;
+}
+#main #main_play{
+	color: black;
+	line-height: 100%;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+#footer{
+	background-color: white;
+	position:fixed; 
+	left:0px; 
+	bottom:0px;
+	color: black;
+	font-size: 10px;
+	font-weight: bold;
+	float: left;
+	opacity: 0.9;
+}
+#footer #footer_mname{
+	position:absolute;
+	top: 10%;
+	left: 0%;
+	width: 200px;
+}
+#footer #divaudio{
+	position: absolute;
+	top: 1%;
+	left: 130%;
+	opacity: 0.9;
+}
+a:hover{
+	cursor: pointer;
+}
+
+
+

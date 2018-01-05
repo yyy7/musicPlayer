@@ -1,0 +1,79 @@
+body{
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	background-color: antiquewhite;
+}
+#main div:nth-child(1),
+#main div:nth-child(2),
+#main div:nth-child(3),
+#main div:nth-child(4),
+#main div:nth-child(5),
+#main div:nth-child(6){
+	position: relative;
+	width: 150px;
+	height: 150px;
+	float: left;
+	background-color: #007AFF;
+	margin: 10px;
+	border-radius: 75px;
+	text-align: center;
+	line-height: 150px;
+	color: white;
+	font-size: 30px;
+}
+#main div:nth-child(1) img,
+#main div:nth-child(2) img,
+#main div:nth-child(3) img,
+#main div:nth-child(4) img,
+#main div:nth-child(5) img,
+#main div:nth-child(6) img{
+	position: absolute;
+	top: 60px;
+	left: 45px;
+	display: none;
+}
+div:nth-child(1)
+{
+	background-image: url(../img/blues.jpg);
+}
+div:nth-child(2)
+{
+	background-image: url(../img/jay.jpg);
+}
+div:nth-child(3)
+{
+	background-image: url(../img/rap.jpg);
+}
+div:nth-child(4)
+{
+	background-image: url(../img/hiphap.jpg);
+}
+div:nth-child(5)
+{
+	background-image: url(../img/folk.jpg);
+}
+div:nth-child(6)
+{
+	background-image: url(../img/rock.jpg);
+}
+
+div:hover{
+	cursor: pointer;
+}
+#next{
+	float: none;
+	position: absolute;
+	top: 90%;
+	left: 70%;
+    
+}
+#next:hover{
+	color: red;
+	cursor: pointer;
+}
+#show{
+	font-size: 20px;
+	color: white;
+}
